@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>script를 연습하자22</h2>
+<h2>script를 연습하자33</h2>
 </body>
 </html>
