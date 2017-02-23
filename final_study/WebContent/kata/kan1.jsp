@@ -10,8 +10,8 @@
 <section>
 	<article>
 		<form>
-			<p class="mc">우리 첫 스터디</p>
-			<p class="mo">우리 첫 스터디</p>
+			<p class="mc">우리 첫 스터디 마우스 클릭시 이벤트!</p>
+			<p class="mo">우리 첫 스터디 마우스 오버시 이벤트!</p>
 		</form>
 	</article>
 </section>
