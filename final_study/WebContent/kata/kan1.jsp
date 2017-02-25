@@ -5,13 +5,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
+<script>
+혻function show(){
+	window.alert(1);
+	/* var ss=document.getElementById("shhh");
+	
+	if(ss.style.color=="red"){
+		ss.style.color="black";
+	}
+	s.style.color="red"; */
+	
+혻}
+</script>
 </head>
 <body>
 <section>
 	<article>
 		<form>
-			<p class="mc">우리 첫 스터디 마우스 클릭시 이벤트!</p>
-			<p class="mo">우리 첫 스터디 마우스 오버시 이벤트!</p>
+			<div id="shhh" onclick="show();">java</div>
 		</form>
 	</article>
 </section>
