@@ -14,9 +14,39 @@ function show(){
 	sh.style.color="red";
 	}
 }
+function overview(){
+	var ovvi=document.getElementById("hi");
+	ovvi.style.color="green";
+}
+function outview(){
+	var ouvi=document.getElementById("hi");
+	ouvi.style.color="black";
+}
+function $(obj){
+   return document["getElementById"](obj);
+}
+function List_view(obj){
+   $(obj).style.display = $(obj).style.display == "" ? "none" : "";
+}
+function List_overview(obj){
+   $(obj).style.display = "";
+}
+function List_out(obj){
+   $(obj).style.display = "none";
+}
 </script>
 </head>
 <body>
-<div id="hello" onclick="show();">java</div>
+<div id="hello" onclick="show();">onclick</div>
+<p id="hi" onmouseover="overview();" onmouseout="outview();">onmouseover / onmouseout</p>
+<span onmouseover="List_overview('List')" onmouseout="List_out('List')" onclick="List_view('List')">팀원</span>
+<div id="List" style="display:none;"> 
+<li>권아람</li>
+<li>김현진</li>
+<li>안병민</li>
+<li>조준현</li>
+<li>한다예</li>
+<li>한진희</li>
+</div>
 </body>
 </html>
